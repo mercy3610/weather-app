@@ -1,0 +1,42 @@
+/* WeatherApp.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.wrapper {
+  width: 300px;
+  height: 400px;
+  background-color: #3498db;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.input-container {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 7px 10px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+}
+
+.weather-container {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.cloud-diagram {
+  margin-top: 20px;
+}
