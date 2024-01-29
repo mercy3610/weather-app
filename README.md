@@ -1,8 +1,4 @@
-# React + Vite
+# A weather app that shows information for all world cities
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="253" alt="Screenshot 2024-01-29 181118" src="https://github.com/mercy3610/weather-app/assets/139337097/5ec94e5a-8071-4389-af36-98009bcb4c2a">
+<img width="255" alt="Screenshot 2024-01-29 181211" src="https://github.com/mercy3610/weather-app/assets/139337097/51788ad6-8da3-4c28-a75a-a57984453a61">
