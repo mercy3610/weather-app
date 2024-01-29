@@ -6,7 +6,7 @@ import './App.css';
 const CloudDiagram = () => {
   return (
     <div className="cloud-diagram">
-      {/* Your cloud diagram SVG or image goes here */}
+      
     
     </div>
   );
@@ -17,7 +17,7 @@ const WeatherApp = () => {
   const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
-    // Fetch weather data when component mounts
+    
     const fetchData = async () => {
       try {
         const response = await axios.get(
@@ -29,7 +29,7 @@ const WeatherApp = () => {
       }
     };
 
-    fetchData('DEFAULT_CITY'); // Set a default city
+    fetchData('DEFAULT_CITY'); 
 
   }, [city]);
 
@@ -38,7 +38,7 @@ const WeatherApp = () => {
   };
 
   const handleSearch = () => {
-    setWeatherData(null); // Clear previous data
+    setWeatherData(null); 
     fetchData(city);
   };
 
@@ -59,7 +59,7 @@ const WeatherApp = () => {
       {weatherData && (
         <div className="weather-container">
           <h2>{weatherData.name}, {weatherData.sys.country}</h2>
-          {/* Display other weather information here */}
+          
           <p>Temperature: {weatherData.main.temp}°C</p>
           <p>Wind: {weatherData.wind.speed} m/s</p>
           <p>Humidity: {weatherData.main.humidity}%</p>
